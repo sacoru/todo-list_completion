@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+button {
+  border-radius: 24px;
+  border: none;
+  padding: 8px 24px;
+  margin-left: 8px;
+}
+button:hover {
+  background-color: tomato;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-area,
+.incomplete-area,
+.complete-area {
+  padding: 8px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+.input-area {
+  background-color: #c1ffff;
+  width: 400px;
+}
+
+.incomplete-area {
+  background-color: #c6ffe2;
+  width: 400px;
+  height: 300px;
+}
+
+.complete-area {
+  background-color: #ffffe0;
+  width: 400px;
+  height: 300px;
+}
+
+.title {
+  text-align: center;
+  margin: 4px 0 8px;
+  font-weight: bold;
+  color: #666;
+}
+li {
+  margin: 8px 0;
+}
+p {
+  margin: 0;
+}
+div div {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
